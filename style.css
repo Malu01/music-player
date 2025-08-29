@@ -1,0 +1,35 @@
+body{
+background:#111;
+color:#fff;
+font-family:Arial,sans-serif;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+.player{
+    text-align:center;
+    background:#222;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 20px#444;
+}
+img{
+    width:150px;
+    height:150px;
+    border: radius 10px;
+    margin-bottom:15px;
+}
+.controls button{
+    font-size:24px;
+    margin:10px;
+    padding:10px 20px;
+    background:#444;
+    border:none;
+    border-radius:8px;
+    color:white;
+    cursor:pointer;
+}
+.controls button:hover{
+    background:#666;
+}
